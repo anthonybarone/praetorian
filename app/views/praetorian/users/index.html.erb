@@ -1,0 +1,12 @@
+<header id="content-header">
+<h1>User Management Index</h1>
+  <h1><%= pluralize(@users.size, 'User') %></h1>
+</header>
+
+<ul id="users">
+  <% @users.each do |user| %>
+    <li>
+      <%= link_to user.email, praetorian.user_path(user) %>   
+    </li>
+  <% end %>
+</ul>
