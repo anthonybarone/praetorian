@@ -8,7 +8,24 @@
 </head>
 <body>
 
-<%= yield %>
+   <% if flash[:notice] %>
+     <br>
+      <h1 class="flash notice">
+        <%= flash[:notice] %>
+    <% end %></h1>
+
+    <% if flash[:alert] %>
+     <br>
+    <h1 class="flash alert">
+      <%= flash[:alert] %>
+  <% end %></h1>
+
+    <%= render "layouts/praetorian/header" %>
+    <br>
+    <br>
+    <%= yield %>
+	
+    <%= render "layouts/praetorian/footer" %>
 
 </body>
 </html>

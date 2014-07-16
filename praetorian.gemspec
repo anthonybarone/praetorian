@@ -18,12 +18,20 @@ Gem::Specification.new do |s|
 # update s.test_files to accomodate rspec if necessary
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.1.0.rc1"
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+  s.add_dependency 'rails', '~> 4.1.0.rc1'
   
   # Use ActiveModel has_secure_password
   s.add_dependency 'bcrypt', '~> 3.1.2'
 
+# Use SCSS for stylesheets
   s.add_dependency 'sass-rails', '~> 4.0.0.rc2'
 
-  s.add_development_dependency "sqlite3"
+  # Use Uglifier as compressor for JavaScript assets
+  s.add_dependency 'uglifier', '>= 1.3.0'
+
+  # Use CoffeeScript for .js.coffee assets and views
+  s.add_dependency 'coffee-rails', '~> 4.0.0'
+
+  s.add_development_dependency 'sqlite3'
 end

@@ -1,0 +1,9 @@
+<div class="header">
+  <% if current_user %>
+    <%= link_to current_user.email, current_user %> is in the house!
+    <%= link_to "Sign Out", praetorian.signout_path, method: :delete %>
+  <% else %>
+    <%= link_to "Sign Up", praetorian.signup_path %> or
+    <%= link_to "Sign In", praetorian.signin_path %>
+  <% end %>
+</div>
