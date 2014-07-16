@@ -27,6 +27,9 @@ Gem::Specification.new do |s|
 # Use SCSS for stylesheets
   s.add_dependency 'sass-rails', '~> 4.0.0.rc2'
 
+# Use jquery-rails  
+  s.add_dependency 'jquery-rails', '~> 3.0.1'
+
   # Use Uglifier as compressor for JavaScript assets
   s.add_dependency 'uglifier', '>= 1.3.0'
 

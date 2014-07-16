@@ -45,7 +45,7 @@ config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
   address: "smtp.gmail.com",
   port: 25,
-  user_name: "XXXXXXXX@gmail.com",
+  user_name: "barone42@gmail.com",
   password: "XXXXXXXX",
   authentication: "plain",
   enable_starttls_auto: true
