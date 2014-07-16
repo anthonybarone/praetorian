@@ -1,0 +1,1 @@
+Praetorian makes duplicating user management features a breeze for any rails application. It includes a restful user model to authenticate against, remember user, reset password and authorization permissions for controller actions and model attributes.
