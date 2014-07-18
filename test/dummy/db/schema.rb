@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140604035508) do
+ActiveRecord::Schema.define(version: 20140718175356) do
 
   create_table "praetorian_users", force: true do |t|
     t.string   "email"
     t.string   "password_digest"
     t.string   "auth_token"
-    t.string   "passsword_reset_token"
+    t.string   "password_reset_token"
     t.datetime "password_reset_sent_at"
     t.datetime "created_at"
     t.datetime "updated_at"

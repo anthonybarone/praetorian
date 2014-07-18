@@ -4,12 +4,12 @@ one:
   email: MyString
   password_digest: MyString
   auth_token: MyString
-  passsword_reset_token: MyString
-  password_reset_sent_at: 2014-06-03 23:55:10
+  password_reset_token: MyString
+  password_reset_sent_at: 2014-07-18 13:53:56
 
 two:
   email: MyString
   password_digest: MyString
   auth_token: MyString
-  passsword_reset_token: MyString
-  password_reset_sent_at: 2014-06-03 23:55:10
+  password_reset_token: MyString
+  password_reset_sent_at: 2014-07-18 13:53:56
